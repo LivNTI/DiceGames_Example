@@ -1,3 +1,5 @@
+package DiceCups;
+
 public class DiceCup extends DiceSet {
     DiceSet allDice;
 

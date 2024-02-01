@@ -1,3 +1,5 @@
+package DiceCups;
+
 public class DiceGame {
     DiceSet allDice;
     DiceCup cup1;
@@ -10,7 +12,7 @@ public class DiceGame {
     private void startGame() {
         allDice = new DiceSet(10);
         cup1 = new DiceCup(0, allDice);
-        //cup2 = new DiceSet(0);
+        //cup2 = new DiceCups.DiceSet(0);
         allDice.generateDice();
 
         cup1.pickDice();
